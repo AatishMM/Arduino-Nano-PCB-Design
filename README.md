@@ -1,67 +1,73 @@
-# Arduino-Nano---PCB-Design
+# 🔧 Arduino-Nano-Compatible-PCB-Design
 
-📌 Project Overview
+## 📌 Project Overview
+This repository contains the **schematic and PCB layout design** of an **Arduino Nano–compatible development board**. The project focuses purely on **PCB design practices**, including schematic capture, component footprint selection, 2-layer PCB layout, and layer stackup definition using professional EDA tools. No firmware development or physical hardware assembly was performed as part of this project.
 
-This repository contains the design and implementation details of a hobby electronics project developed as part of an academic activity at SNS Institutions. The project focuses on applying core electronics and embedded systems concepts through hands-on circuit design, hardware integration, and basic firmware development.
+## 🎯 Project Objectives
+- Design a complete Arduino Nano–compatible schematic  
+- Apply correct component selection and pin mapping  
+- Create a manufacturable **2-layer PCB layout**  
+- Understand PCB stackup, routing, and layout best practices  
+- Gain hands-on experience with professional PCB design workflows  
 
-The objective of this project was to strengthen practical understanding of electronics by designing, assembling, and testing a functional hardware prototype.
+## 🛠️ Design Scope
+✔ Schematic design  
+✔ PCB layout (2-layer)  
+✔ Layer stackup definition  
+✔ 2D and 3D PCB visualization  
 
-🎯 Objectives
+## 🧰 Tools Used
+- **PCB Design Tool:** Altium Designer  
+- **Board Type:** 2-layer FR-4 PCB  
 
-Apply theoretical electronics concepts to real hardware
+## 🧩 Schematic Design
+The schematic includes:
+- Arduino Nano–compatible MCU connections  
+- Power input and basic regulation circuitry  
+- Decoupling capacitors and supporting components  
+- I/O header pin mapping  
 
-Design and test electronic circuits through hands-on experimentation
+## 🧱 PCB Layout Details
+- 2-layer PCB (Top & Bottom layers)  
+- Optimized component placement for compact layout  
+- Manual routing with clear signal organization  
+- Ground plane implementation  
+- Design Rule Check (DRC) verified  
 
-Gain practical exposure to embedded systems and hardware debugging
+## 📚 Layer Stackup
+- Top Layer: Signal  
+- Dielectric: FR-4  
+- Bottom Layer: Signal  
+- Solder mask applied on both layers  
 
-Improve understanding of component-level behavior and system integration
+## ✅ Key Learnings
+- Schematic-to-PCB workflow  
+- Component footprint selection  
+- 2-layer PCB routing techniques  
+- PCB stackup understanding  
+- Professional documentation of PCB designs  
 
-🛠️ Hardware Components
+## 🚀 Future Improvements
+- Convert the design into a fabricated PCB  
+- Add USB-to-Serial interface  
+- Improve layout optimization and EMI performance  
+- Extend the design with additional peripherals  
 
-Microcontroller board (Arduino / ESP32 – as applicable)
 
-Discrete electronic components (resistors, capacitors, LEDs, sensors, etc.)
+## 📷 Project Preview
 
-Power supply and basic regulation components
+### Schematic
+![Schematic](1738087405433.jpg)
 
-Breadboard / PCB (as applicable)
+### Layer Stackup
+![Stackup](1738087405524.jpg)
 
-💻 Software & Tools Used
+### 2D PCB Layout
+![2D Top](1738087405953.jpg)
 
-Embedded C / Arduino IDE
+### 3D PCB Layout
+![3D Top](1738087405972.jpg)
+![3D Bottom](1738087405799.jpg)
 
-Python (for testing or serial monitoring, if applicable)
-
-KiCad / Altium Designer (if schematic or PCB was designed)
-
-Serial Monitor for debugging and validation
-
-⚙️ Implementation Details
-
-Designed and assembled the electronic circuit based on project requirements
-
-Developed firmware to interface peripherals and control system behavior
-
-Performed basic debugging using multimeter and serial output
-
-Verified functionality through iterative testing and refinement
-
-✅ Key Learnings
-
-Practical circuit design and component selection
-
-Embedded firmware development fundamentals
-
-Hardware debugging and signal verification
-
-Understanding of real-world implementation challenges
-
-🚀 Future Improvements
-
-Convert the prototype into a dedicated PCB design
-
-Improve code efficiency and modularity
-
-Add additional sensors or features
-
-Enhance system robustness and power management
+## 📄 License
+This project is intended for **educational and learning purposes**.
